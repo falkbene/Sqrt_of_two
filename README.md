@@ -1,9 +1,31 @@
-# Projektrepository
+# Introduction
+This program calculates the square root of 2 and provides options to display the result in either decimal or hexadecimal representation. Additionally, it offers different versions of the algorithm for square root calculation and allows performance measurement with various repetitions.
 
-Beachten Sie, dass die äußere Form und die Einhaltung der Formalitäten wichtige Bewertungskriterien sind. Halten Sie sich deshalb **unbedingt** an folgende Ordnerstruktur und beachten Sie insbesondere Groß- und Kleinschreibung:
+## Usage Options
 
-- `Ausarbeitung/Ausarbeitung.pdf`: PDF Ihrer Ausarbeitung
-- `Ausarbeitung/Ausarbeitung.tex`: LaTeX-Quellen Ihrer Ausarbeitung
-- `Implementierung/`: Ihre Implementierung
-- `Implementierung/Makefile`: Makefile für Ihre Implementierung, welches durch einen Aufruf von `make` Ihre Implementierung kompiliert
-- `Vortrag/Vortrag.pdf`: Folien für Ihre Abschlusspräsentation
+`-V`: Choose the version of the program. Options range from 0 to 4. See the help section for details on each version.
+
+`-B`: Measure the time it takes to produce a result with an optional argument specifying the number of repetitions.
+
+`-d`: Return the square root result in decimal representation. Specify the number of decimal places with an optional argument.
+
+`-h` : Return the square root result in hexadecimal representation. Specify the number of hexadecimal places with an optional argument.
+
+`-t` : Test the result against an optional input string. If no argument is provided, compare the calculated result to the correct decimal string (up to 10 million digits).
+
+`-h` or `--help`: Display the help message.
+
+
+## Versions
+
+Version 0: Exponentiation by squaring with long-array data structures and SIMD.
+
+Version 1: Self-developed algorithm for exponentiation with long-array data structures.
+
+Version 2: Exponentiation by squaring with int-array data structures.
+
+Version 3: Self-developed algorithm for exponentiation with int-array data structures.
+
+Version 4: Exponentiation by squaring with long-array data structures without SIMD.
+
+
