@@ -1,5 +1,5 @@
 # Introduction
-This program calculates the square root of 2 and provides options to display the result in either decimal or hexadecimal representation. Additionally, it offers different versions of the algorithm for square root calculation and allows performance measurement with various repetitions.
+This project was undertaken as part of a university assignment by a team of three individuals. The program calculates the square root of 2 and provides options to display the result in either decimal or hexadecimal representation. Additionally, it offers different versions of the algorithm for square root calculation and allows performance measurement with various repetitions.
 
 ## Usage Options
 
@@ -29,3 +29,6 @@ Version 3: Self-developed algorithm for exponentiation with int-array data struc
 Version 4: Exponentiation by squaring with long-array data structures without SIMD.
 
 
+## Additional Resources
+
+For a more detailed exploration of the Square Root Calculation Program, including comprehensive explanations of the implemented algorithms and extensive documentation, please refer to the accompanying PDF document. The PDF document, located in the "Ausarbeitungs" folder, offers a thorough overview of the project's design, implementation details, and usage instructions. It covers various aspects, from the choice of algorithms to the intricacies of the code structure. Please note that the document is only available in German.
