@@ -1,0 +1,3 @@
+C:/Users/falkb/CLionProjects/team105/cmake-build-debug/CMakeFiles/team105.dir
+C:/Users/falkb/CLionProjects/team105/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/falkb/CLionProjects/team105/cmake-build-debug/CMakeFiles/rebuild_cache.dir
